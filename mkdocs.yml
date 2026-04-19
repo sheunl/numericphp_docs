@@ -1,0 +1,19 @@
+site_name: NumPower Documentation
+site_url: https://numpower.readthedocs.io
+site_description: Documentation for NumPower, a Python library for numerical computations.
+site_author: Rasaq Lawani
+theme:
+  name: material
+  logo: assets/logo.png
+  palette:
+    primary: 'black'
+    accent: 'blue'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  features:
+    - navigation.tabs        # Enables top navigation tabs
+    - navigation.tabs.sticky 
+nav:
+  - Home: index.md
+  - Installation: installation.md
