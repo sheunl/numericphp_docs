@@ -1,6 +1,6 @@
 site_name: NumericPHP Documentation
-site_url: https://numpower.readthedocs.io
-site_description: Documentation for NumPower, a Python library for numerical computations.
+site_url: https://numericphp.readthedocs.io
+site_description: Documentation for NumericPHP, a PHP library for numerical computations.
 site_author: Rasaq Lawani
 theme:
   name: material
