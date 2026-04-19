@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# Rubix NumPower</h1>
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Inspired by NumPy, the NumPower extension was created by Henrique Borba to provide the foundation for efficient scientific computing in PHP, as well as leverage the machine learning tools and libraries that already exist and can benefit from it.
 
-## Commands
+This C extension developed for PHP can be used to considerably speed up mathematical operations on large datasets and facilitate the manipulation, creation and operation of N-dimensional tensors.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+NumPower was designed from the ground up to utilize AVX2 and the GPU to further improve performance. With the use of contiguous single precision arrays, slices, buffer sharing and a specific GC engine, 
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+NumPower aims to manage memory more efficiently than a matrix in PHP arrays
